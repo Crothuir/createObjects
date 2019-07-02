@@ -18,7 +18,12 @@ public class CreateObjectDemo{
 		rectTwo.origin = originOne;
 		
 		// Display rectTwo's position
+		System.out.println(" X Position of rectTwo: " + rectTwo.origin.x);
+		System.out.println(" Y Position of rectTwo: " + rectTwo.origin.y);
 		
 		// Move rectTwo and display its new position
+		rectTwo.move(40, 72);
+		System.out.println(" X Position of rectTwo: " + rectTwo.origin.x);
+		System.out.println(" X Position of rectTwo: " + rectTwo.origin.x);
 	}
 }
