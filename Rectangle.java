@@ -1,4 +1,4 @@
-package createObject;
+package createObjects;
 
 public class Rectangle{
 	public int width = 0;

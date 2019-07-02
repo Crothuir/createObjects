@@ -1,4 +1,4 @@
-package createObject;
+package createObjects;
 
 public class Point{
 	public int x = 0;
